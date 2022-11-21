@@ -10,7 +10,7 @@ header{
 }
 
 section{
-	background-image: url("images/classroom.jpg");
+	background-image: url("./images/classroom.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -70,13 +70,15 @@ nav ul li{
 nav ul li a{
 	color: #637AA6;
 	text-decoration: none; 
-	margin: 120px;
+	margin: 55px;
 }
 
 nav ul li a:hover{ 
 	background-color: #E6E3E1;
 	color: #637AA6;
-	padding:25px;
+	padding:15px;
 }
+
+
 
 
