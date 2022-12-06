@@ -1,0 +1,82 @@
+header{
+	font-size: 60px;
+	font-family: sketchnote-square, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #637AA6;
+	width: 100%;
+	height: 75px; 
+	background-color:white;
+	text-align: center;
+}
+
+h1{
+	font-size: 25px;
+	line-height: 62px;
+	font-family: ruddy, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	text-align: center;
+	
+}
+section{
+	background-image: url("images/classroom2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav{
+	font-size: 35px;
+	line-height: 62px;
+	font-family: ruddy, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+nav ul li{
+	list-style-type: none; 
+	float: left;
+}
+
+nav ul li a{
+	color: #637AA6;
+	text-decoration: none; 
+	margin: 55px;
+}
+
+nav ul li a:hover{ 
+	background-color: #E6E3E1;
+	color: #637AA6;
+	padding:15px;
+}
+
+
+.column {
+  float: left;
+  width: 31.5%;
+  padding: 4px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+figure { 
+	font-size: 20px;
+	line-height: 40px;
+	font-family: ruddy, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+}
+.grow img{
+transition: 1s ease;
+}
+
+.grow img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}
