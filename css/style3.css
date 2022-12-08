@@ -10,6 +10,10 @@ header{
 	text-align: center;
 }
 
+a.header{ 
+text-decoration: none;
+color: #637AA6;
+} 
 h1{
 	font-size: 25px;
 	line-height: 62px;
@@ -20,9 +24,10 @@ h1{
 	
 }
 section{
-	background-image: url('../images/classroom2.png');
+	background-image: url("images/classroom2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin: -25px;
 }
 nav{
 	font-size: 35px;
@@ -40,7 +45,7 @@ nav ul li{
 nav ul li a{
 	color: #637AA6;
 	text-decoration: none; 
-	margin: 55px;
+	margin: 45px;
 }
 
 nav ul li a:hover{ 
@@ -76,6 +81,7 @@ a{
 a:hover{
 	color:#637AA6;
 }
+
 .grow img{
 transition: 1s ease;
 }
