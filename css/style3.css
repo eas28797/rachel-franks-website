@@ -70,6 +70,12 @@ figure {
 	font-style: normal;
 	text-align: center;
 }
+a{
+	color: white;
+}
+a:hover{
+	color:#637AA6;
+}
 .grow img{
 transition: 1s ease;
 }
