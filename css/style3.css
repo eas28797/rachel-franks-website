@@ -20,7 +20,7 @@ h1{
 	
 }
 section{
-	background-image: url('images/classroom2.png');
+	background-image: url('../images/classroom2.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
