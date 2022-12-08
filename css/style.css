@@ -13,7 +13,7 @@ a{
 text-decoration: none;
 } 
 section{
-	background-image: url("./images/classroom.JPG");
+	background-image: url("../images/classroom.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 	
