@@ -19,7 +19,7 @@ section{
 	background-image: url("../images/desk.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding:200px;
+	padding:100px;
 }
 
 input[type=text] {
