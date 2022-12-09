@@ -1,5 +1,6 @@
 
-h1{
+header{
+	font-size: 60px;
 	font-family: sketchnote-square, sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -12,6 +13,20 @@ h1{
 a{ 
 text-decoration: none;
 } 
+section{
+	background-image: url("../images/desk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:200px;
+}
+input[type=text] {
+	font-size: 20px;
+	line-height: 15px;
+	font-family: ruddy, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
  body{
 	 font-size: 25px;
 	line-height: 62px;
